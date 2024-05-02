@@ -1,0 +1,11 @@
+{
+    "base_url": "https://magento.softwaretestingboard.com/",
+    "users": {
+        "valid_users": [
+            {
+                "email": "email123@gmail.com",
+                "pasword": "Password123"
+            }
+        ]
+    }
+}

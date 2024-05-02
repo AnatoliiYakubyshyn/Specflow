@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qcX/nH2RbbhzH++R3CAdMxgcRQZGg/NMlJbwy3jS9tMwnTnIzCna+1uGK7xuHujInoo1dlIdlHxN6ndf6CK74g==",
+  "dgSpecHash": "jao+1c885ClxCjT4SDXmBtBpseOEehNzPUFlw3mVEuZlo4lRpydiq/EeFPkIaUckkCr5iNhPCMXYHMaaioDo6Q==",
   "success": true,
   "projectFilePath": "/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/TestProject.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "/Users/anatoliiyakubyshyn/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/microsoft.win32.registry/4.3.0/microsoft.win32.registry.4.3.0.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
-    "/Users/anatoliiyakubyshyn/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/anatoliiyakubyshyn/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/nunit/3.13.1/nunit.3.13.1.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/nunit3testadapter/3.17.0/nunit3testadapter.3.17.0.nupkg.sha512",
