@@ -3,8 +3,8 @@
     "users": {
         "valid_users": [
             {
-                "email": "email123456@gmail.com",
-                "pasword": "Password1234"
+                "email": "email123@gmail.com",
+                "pasword": "Password123"
             }
         ]
     }

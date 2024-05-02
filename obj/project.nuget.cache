@@ -70,7 +70,7 @@
     {
       "code": "NU1108",
       "level": "Error",
-      "message": "Cycle detected. \n  Specflow -> SpecFlow.NUnit 3.9.74 -> SpecFlow (= 3.9.74).",
+      "message": "Cycle detected. \n  Specflow -> SpecFlow.Plus.LivingDocPlugin 3.9.57 -> SpecFlow (>= 3.9.8 && < 3.10.0).",
       "libraryId": "SpecFlow",
       "targetGraphs": [
         "net8.0"
