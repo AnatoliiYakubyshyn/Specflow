@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using NUnit.Framework;
+
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -28,8 +30,24 @@ namespace Specflow.Steps
             // Accessing data
             string baseUrl = data.base_url;
             IWebDriver driver = Driver.driver;
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Navigate().GoToUrl(baseUrl);
         }
+
+        [When(@"I login with ""(.*)"" and ""(.*)""")]
+        public void WhenILogInWith(string login, string password)
+        {
+            Driver.driver.FindElement(By.XPath("//header[contains(@class,'page-header')]//li[contains(@class,'authorization-link')]")).Click();
+            Driver.driver.FindElement(By.Id("email")).SendKeys(login);
+            Driver.driver.FindElement(By.Id("pass")).SendKeys(password);
+            Driver.driver.FindElement(By.Id("send2")).Click();
+        }
+
+        [Then("Account page is opened")]
+        public void ThenAccountPageIsOpened() {
+           Assert.IsTrue(Driver.driver.FindElement(By.XPath("//header//span[contains(text(),'Welcome')]")).Displayed);
+        }
+
 
     }
 }

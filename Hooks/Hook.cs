@@ -10,7 +10,7 @@ namespace Specflow.Hooks
     {
         [AfterScenario]
         public void TearDown() {
-            Driver.driver.Quit();
+           Driver.driver.Quit();
         }
         
     }
