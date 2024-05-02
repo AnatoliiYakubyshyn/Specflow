@@ -112,3 +112,7 @@
 /Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/obj/Debug/net8.0/TestProject.pdb
 /Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/obj/Debug/net8.0/ref/TestProject.dll
+/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/selenium-manager/linux/selenium-manager
+/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/selenium-manager/macos/selenium-manager
+/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/selenium-manager/windows/selenium-manager.exe
+/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/WebDriver.dll
