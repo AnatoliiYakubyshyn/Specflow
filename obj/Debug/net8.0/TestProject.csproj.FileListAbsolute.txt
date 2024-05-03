@@ -117,3 +117,5 @@
 /Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
 /Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/obj/Debug/net8.0/ref/TestProject.dll
 /Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/config.json
+/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/SeleniumExtras.PageObjects.dll
+/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/bin/Debug/net8.0/SeleniumExtras.WaitHelpers.dll

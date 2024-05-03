@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jao+1c885ClxCjT4SDXmBtBpseOEehNzPUFlw3mVEuZlo4lRpydiq/EeFPkIaUckkCr5iNhPCMXYHMaaioDo6Q==",
+  "dgSpecHash": "tinKTlA6PurrQUMjPqVsAQJfyNnc8JbJ0IZKZBkqINZK4MihJqv9qMKrTdFdddtQHkK1GJeRgYuKvZbebvtU5g==",
   "success": true,
   "projectFilePath": "/Users/anatoliiyakubyshyn/Documents/Solvd/net/specflow/Specflow/TestProject.csproj",
   "expectedPackageFiles": [
     "/Users/anatoliiyakubyshyn/.nuget/packages/bodi/1.5.0/bodi.1.5.0.nupkg.sha512",
+    "/Users/anatoliiyakubyshyn/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.14.1/dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
+    "/Users/anatoliiyakubyshyn/.nuget/packages/dotnetseleniumextras.waithelpers/3.11.0/dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/fluentassertions/5.10.3/fluentassertions.5.10.3.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/gherkin/19.0.3/gherkin.19.0.3.nupkg.sha512",
     "/Users/anatoliiyakubyshyn/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
