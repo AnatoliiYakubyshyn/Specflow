@@ -17,6 +17,9 @@ namespace Specflow.Pages
         [FindsBy(How = How.XPath, Using = "//header[contains(@class,'page-header')]//li[contains(@class,'authorization-link')]")]
         private IWebElement  _loginIcon;
 
+        [FindsBy(How = How.XPath, Using = "//header//span[contains(text(),'Welcome')]")]
+        private IWebElement _succesfullLoginMarker;
+
         public HomePage(IWebDriver driver) : base(driver)
         {
             string json = File.ReadAllText("config.json");
@@ -33,6 +36,10 @@ namespace Specflow.Pages
         public LoginPage ClickLoginIcon() {
             _loginIcon.Click();
             return new LoginPage(Driver);
+        }
+
+        public bool IsLoggedIn() {
+            return _succesfullLoginMarker.Displayed;
         }
 
     }

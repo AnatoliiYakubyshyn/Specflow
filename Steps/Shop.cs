@@ -42,7 +42,7 @@ namespace Specflow.Steps
         [Then("Account page is opened")]
         public void ThenAccountPageIsOpened()
         {
-            Assert.IsTrue(driver.FindElement(By.XPath("//header//span[contains(text(),'Welcome')]")).Displayed);
+            Assert.IsTrue(_homePage.IsLoggedIn());
         }
 
     }
