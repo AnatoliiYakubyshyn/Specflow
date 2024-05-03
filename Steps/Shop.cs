@@ -8,6 +8,8 @@ using Newtonsoft.Json;
 
 using Specflow.Pages;
 
+[assembly:Parallelizable(ParallelScope.Fixtures)]
+
 namespace Specflow.Steps
 {
     [Binding]
