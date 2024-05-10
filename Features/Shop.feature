@@ -8,3 +8,11 @@ Scenario: Login valid users
 	Examples:
     | login  | password |
     | email123@gmail.com | Password123|
+
+Scenario: Check Invalid login
+	Given I am on Home Page
+	When I login with "<login>" and "<password>"
+	Then Account page is not opened
+	Examples:
+    | login  | password |
+    | email123@gmail.com | Password1234|

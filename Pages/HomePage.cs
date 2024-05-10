@@ -39,7 +39,11 @@ namespace Specflow.Pages
         }
 
         public bool IsLoggedIn() {
+            try {
             return _succesfullLoginMarker.Displayed;
+            } catch (NoSuchElementException e ){
+                return false;
+            }
         }
 
     }

@@ -47,5 +47,11 @@ namespace Specflow.Steps
             Assert.IsTrue(_homePage.IsLoggedIn());
         }
 
+        [Then("Account page is not opened")]
+        public void ThenAccountPageIsNotOpened()
+        {
+            Assert.IsFalse(_homePage.IsLoggedIn());
+        }
+
     }
 }
